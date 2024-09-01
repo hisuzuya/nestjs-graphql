@@ -1,0 +1,8 @@
+query findAllTodos {
+  findAll {
+    id
+    title
+    description
+    createdAt
+  }
+}

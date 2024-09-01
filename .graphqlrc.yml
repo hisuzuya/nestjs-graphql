@@ -1,0 +1,5 @@
+schema:
+  - http://localhost:3000/graphql:
+      headers:
+        Authorization: 'Bearer YOUR_AUTH_TOKEN'
+documents: 'src/**/*.{graphql,js,ts,jsx,tsx}'
